@@ -18,10 +18,10 @@ jobs:
         uses: cloudtype-github-actions/deploy@v1
         with:
           token: ${{ secrets.CLOUDTYPE_TOKEN }}
-          project: cicd-practice/cicd-practice
+          project: cicd-practice/cicd
           stage: main
           yaml: |
-            name: cicd-practice
+            name: cicd
             app: java@17
             options:
               ports: 8080
